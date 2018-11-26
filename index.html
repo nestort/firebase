@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--github.com/nestort/firebase-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="seccionSesion">
+        <button id='inicioSesion'>Iniciar sesion con google</button>
+    </div>
+
+    <div id='seccion'>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDX6GHbyagEDYgi1tPm-_vGP8oY5BfUfvk",
+            authDomain: "practica-8f533.firebaseapp.com",
+            databaseURL: "https://practica-8f533.firebaseio.com",
+            projectId: "practica-8f533",
+            storageBucket: "practica-8f533.appspot.com",
+            messagingSenderId: "540740506605"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
